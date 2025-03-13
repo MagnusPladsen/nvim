@@ -9,9 +9,9 @@ return {
     opts = {
       ensure_installed = {
         "lua_ls",
-        "ts_ls",
         "tailwindcss",
         "svelte",
+        "vtsls",
         -- add more arguments for adding more language servers
       },
     },

@@ -13,5 +13,6 @@ return {
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   -- import/override with your plugins folder
 }
