@@ -93,8 +93,8 @@ nvim
 
 ### Copy (Yank) & Paste
 
-| Key | Action                                                | Example |
-| --- | ----------------------------------------------------- | ------- |
+| Key | Action                                                |
+| --- | ----------------------------------------------------- |
 | y   | Yank (copy) selected text                             |
 | yw  | Copy word Copies the next word                        |
 | yb  | Copy previous word Copies the word before the cursor  |
