@@ -131,8 +131,9 @@ nvim
 
 ### Scrolling & Navigation
 
-| Key | Action |
-| CTRL + d | Scroll down |
-| CTRL + u | Scroll up |
-| gg | Go to the top of the file |
-| grr | Find usages of an imported component |
+| Key      | Action                               |
+| -------- | ------------------------------------ |
+| CTRL + d | Scroll down                          |
+| CTRL + u | Scroll up                            |
+| gg       | Go to the top of the file            |
+| grr      | Find usages of an imported component |
