@@ -72,24 +72,27 @@ nvim
 
 ### Basic Cursor Movement
 
-| Key | Action                    | Example                   |
-| --- | ------------------------- | ------------------------- |
-| h   | Move left                 | 5h → Move left 5 times    |
-| j   | Move down                 | 5j → Move down 5 times    |
-| k   | Move up                   | 5k → Move up 5 times      |
-| l   | Move right                | 5l → Move right 5 times   |
-| w   | Move to the next word     | 5w → Move forward 5 words |
-| b   | Move to the previous word | 5b → Move back 5 words    |
+| Key       | Action                                              | Example                              |
+| --------- | --------------------------------------------------- | ------------------------------------ |
+| h         | Move left                                           | 5h → Move left 5 times               |
+| j         | Move down                                           | 5j → Move down 5 times               |
+| k         | Move up                                             | 5k → Move up 5 times                 |
+| l         | Move right                                          | 5l → Move right 5 times              |
+| w         | Move to the next word                               | 5w → Move forward 5 words            |
+| b         | Move to the previous word                           | 5b → Move back 5 words               |
+| e         | Move to the end of the next word                    | 5e → Move forward 5 words to the end |
+| shift + a | Moves to the end of the line and enters insert mode |                                      |
 
 ### Deleting (Cutting) Text
 
-| Key  | Action                                                  |
-| ---- | ------------------------------------------------------- |
-| d    | Delete, needs a motion                                  |
-| dw   | Delete word Deletes the next word                       |
-| db   | Delete previous word Deletes the word before the cursor |
-| dd   | Delete line Deletes the current line                    |
-| d12d | Delete 12 lines Deletes the next 12 lines               |
+| Key       | Action                                     |
+| --------- | ------------------------------------------ |
+| d         | Delete, needs a motion                     |
+| dw        | Deletes the next word                      |
+| db        | Deletes the revious word                   |
+| dd        | Deletes the current line                   |
+| d12d      | Deletes the next 12 lines                  |
+| shift + s | Delete current line and enters insert mode |
 
 ### Copy (Yank) & Paste
 
