@@ -9,12 +9,11 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
-  { import = "astrocommunity.scrolling.mini-animate" },
   { import = "astrocommunity.color.transparent-nvim" },
   { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
-  { import = "astrocommunity.file-explorer.oil-nvim" },
+  { import = "astrocommunity.pack.bash" },
   -- import/override with your plugins folder
 }
