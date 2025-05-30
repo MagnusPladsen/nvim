@@ -13,6 +13,9 @@ return {
     config = function() require("lsp_signature").setup() end,
   },
 
+  "jsx_marks",
+  {},
+
   -- == Examples of Overriding Plugins ==
 
   -- customize alpha options
