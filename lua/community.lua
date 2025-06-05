@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.diagnostics.trouble-nvim" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
-  { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
+  -- { import = "astrocommunity.colorscheme.monokai-pro-nvim" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.editing-support.multiple-cursors-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },
