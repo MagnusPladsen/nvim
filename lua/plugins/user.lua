@@ -42,6 +42,10 @@ return {
           }, "\n"),
         },
       },
+      notifications = {
+        background_colour = "#000000",
+        merge_duplicates = true,
+      },
     },
   },
 
