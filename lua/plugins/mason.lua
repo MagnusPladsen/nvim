@@ -13,7 +13,7 @@ return {
         "lua-language-server",
 
         "vtsls",
-        "tailwindcss",
+        "tailwindcss-language-server",
         -- install formatters
         "stylua",
 
