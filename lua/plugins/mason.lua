@@ -12,7 +12,7 @@ return {
         -- install language servers
         "lua-language-server",
 
-        "ts_ls",
+        "vtsls",
         "tailwindcss",
         -- install formatters
         "stylua",
