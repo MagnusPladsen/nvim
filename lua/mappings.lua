@@ -6,5 +6,9 @@ return {
     ["<C-K>"] = { "<C-W><C-K>", desc = "Move to the window above" },
     ["<C-L>"] = { "<C-W><C-L>", desc = "Move to the window to the right" },
     ["<C-H>"] = { "<C-W><C-H>", desc = "Move to the window to the left" },
+    ["<C-s>"] = { "<cmd>w<cr>", desc = "Save file" }, -- Normal mode mapping
+  },
+  i = {
+    ["<C-s>"] = { "<Esc><cmd>w<cr>", desc = "Save file" }, -- Insert mode mapping
   },
 }
