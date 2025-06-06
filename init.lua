@@ -25,3 +25,5 @@ end
 
 require "lazy_setup"
 require "polish"
+
+vim.keymap.set("i", "<C-s>", "<Esc><cmd>w<cr>", { desc = "Save file" })
