@@ -11,4 +11,7 @@ return {
   i = {
     ["<C-s>"] = { "<Esc><cmd>w<cr>", desc = "Save file" }, -- Insert mode mapping
   },
+  v = {
+    ["<C-s>"] = { "<Esc><cmd>w<cr>", desc = "Save file" }, -- Insert mode mapping
+  },
 }
