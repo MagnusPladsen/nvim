@@ -88,6 +88,9 @@ return {
         NotifyDEBUGBorder = { bg = "none" },
         NotifyTRACEBorder = { bg = "none" },
         NotifyBackground = { bg = "#000000" },
+        -- SnacksPickerDir
+        SnacksPickerDir = { fg = "#808080", bg = "none" },
+        SnacksPickerFile = { fg = "#F2F3F5", bg = "none" },
       },
       astrotheme = { -- a table of overrides/changes when applying the astrotheme theme
         -- Normal = { bg = "#000000" },
