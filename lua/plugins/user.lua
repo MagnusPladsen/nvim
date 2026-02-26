@@ -17,6 +17,7 @@ return {
   -- == Examples of Overriding Plugins ==
 
   -- customize dashboard options
+  --
   {
     "folke/snacks.nvim",
     opts = {
